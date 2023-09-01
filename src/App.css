@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.message-container {
+  border: 1px solid lightgrey;
+  height: 160px;
+  margin: 15px;
+  box-shadow: 5px 5px 20px rgba(63, 61, 61, 0.2);
+  border-radius: 15px;
+  padding: 10px;
+}
