@@ -17,7 +17,7 @@ function App() {
 
   //updates likes
   async function handleLikes(message) {
-    const res = await fetch(`${API}/message/${message.id}`, {
+    const res = await fetch(`${API}/messages/${message.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -65,7 +65,7 @@ function App() {
 
   //DELETING
   async function handleDelete(message) {
-    const res = await fetch(`${API}/message/${message.id}`, {
+    const res = await fetch(`${API}/messages/${message.id}`, {
       method: "DELETE",
     });
     const info = await res.json();

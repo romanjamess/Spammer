@@ -8,7 +8,7 @@ export default function EditMessage({ message, fetchMessages }) {
     e.preventDefault();
     console.log(message.id)
     try {
-      const res = await fetch(`${API}/message/${message.id}`, {
+      const res = await fetch(`${API}/messages/${message.id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
